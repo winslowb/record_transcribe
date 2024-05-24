@@ -69,6 +69,3 @@ The script will record the audio for 1 hour and then transcribe it to text.
 
 This project is licensed under the MIT License.
 
----
-
-Feel free to modify the README to better fit your project's specifics or add any additional information you find necessary.

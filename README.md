@@ -2,8 +2,7 @@
 
 This project allows you to record audio and transcribe it using `ffmpeg` and [whisper](https://github.com/openai/whisper.git) on an Ubuntu distrobution. It captures any audio played through your soundcard and converts it to text.
 
-The intent is to create or add to a workflow that allows you to capture audio and convert to text/notes. For example, I might use [fabric](https://github.com/danielmiessler/fabric)  
-to analyse and structure the content.  
+The intent is to create or add to a workflow that allows you to capture audio and convert to text/notes. For example, I might use [fabric](https://github.com/danielmiessler/fabric) to analyse and structure the content.  
 
 ## Prerequisites
 

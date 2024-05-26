@@ -57,7 +57,7 @@ Replace `YOUR_AUDIO_SOURCE` with the actual audio source you identified earlier.
 ./record_transcribe.sh
 ```
 
-The script will record the audio for 1 hour and then transcribe it to text.
+The script will record the audio for 1 hour and then transcribe it to text. Otherwise, ^ c will break the recording and /whisper/ will start transcribing and the script will save to a txt file in $HOME/recording 
 
 ## Notes
 

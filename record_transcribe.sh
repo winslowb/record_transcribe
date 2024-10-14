@@ -15,7 +15,7 @@ TRANSCRIPTION_FILE="$OUTPUT_DIR/transcription_$TIMESTAMP.txt"
 mkdir -p "$OUTPUT_DIR"
 
 # Define the audio source (replace with your actual source)
-AUDIO_SOURCE="YOUR_AUDIO_SOURCE"
+AUDIO_SOURCE="bluez_output.A4_05_6E_8E_F7_59.1.monitor"
 # Start recording
 echo "Recording ..."
 ffmpeg -f pulse -i "$AUDIO_SOURCE" -t 3600 -acodec mp3 "$OUTPUT_FILE"
